@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AILT Course Planner AI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+
+    <!-- ===== CHAT VIEW ===== -->
+    <div id="chat-view">
+      <header class="chat-header">
+        <div class="logo">
+          <span class="logo-icon">🌱</span>
+          <span class="logo-text">AILT Course Planner AI</span>
+        </div>
+        <div class="step-indicator" id="step-indicator">Step 1 / 9</div>
+      </header>
+
+      <div id="messages-wrapper">
+        <div id="messages"></div>
+      </div>
+
+      <div id="input-area">
+        <input
+          type="text"
+          id="chat-input"
+          placeholder="Type your academic year and major..."
+          autocomplete="off"
+        />
+        <button id="send-btn" aria-label="Send">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- ===== TIMETABLE VIEW ===== -->
+    <div id="timetable-view" class="hidden">
+      <header class="timetable-header">
+        <button id="back-btn" class="back-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          <span>Back to Chat</span>
+        </button>
+        <h2 class="timetable-title">Your Weekly Schedule</h2>
+        <div class="timetable-stats" id="timetable-stats"></div>
+      </header>
+      <div id="timetable-content"></div>
+    </div>
+
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

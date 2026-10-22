@@ -1,0 +1,54 @@
+﻿course_name,course_code,course_type
+Introduction to Programming,CS101,m
+Discrete Mathematics,CS102,m
+Data Structures,CS201,m
+Algorithms,CS301,m
+Database Systems,CS302,m
+Software Engineering,CS303,m
+Computer Networks,CS304,m
+Web Development,CS305,m
+Operating Systems,CS401,m
+Machine Learning,CS402,m
+Principles of Management,BBA101,m
+Financial Accounting,BBA102,m
+Marketing Management,BBA201,m
+Corporate Finance,BBA202,m
+Operations Management,BBA302,m
+Business Ethics,BBA301,m
+International Business,BBA303,m
+Strategic Management,BBA401,m
+Engineering Mechanics,ME101,m
+Thermodynamics,ME201,m
+Fluid Mechanics,ME202,m
+Materials Science,ME301,m
+Machine Design,ME302,m
+Manufacturing Processes,ME303,m
+Heat Transfer,ME401,m
+Introduction to Psychology,PSY101,m
+Research Methods in Psychology,PSY102,m
+Cognitive Psychology,PSY201,m
+Social Psychology,PSY202,m
+Developmental Psychology,PSY301,m
+Abnormal Psychology,PSY302,m
+Globalization and Economics,CC101,c
+Environmental Sustainability,CC102,c
+Philosophy and Ethics,CC103,c
+World History and Civilizations,CC104,c
+Introduction to Statistics,CC105,c
+Communication and Presentation Skills,CC106,c
+Cultural Diversity and Society,CC107,c
+Data Literacy in the Modern World,CC108,c
+Health and Wellness,CC109,c
+Art and Society,CC110,c
+Introduction to Physics,FE101,e
+Creative Writing,FE102,e
+Photography,FE103,e
+Music Appreciation,FE104,e
+Astronomy and the Universe,FE105,e
+Foreign Language French,FE106,e
+Foreign Language Japanese,FE107,e
+Game Design Fundamentals,FE108,e
+Public Speaking,FE109,e
+Entrepreneurship and Innovation,FE110,e
+Graphic Design,FE111,e
+Film Studies,FE112,e
